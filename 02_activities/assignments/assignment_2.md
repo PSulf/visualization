@@ -10,22 +10,47 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+## My answer...
+### Example of a Poor Visualization (Schemaball)
 
 
 
+# 1 - Poor Visualization (Schemaball)
 
+#Source: [Schemaball Visualization by Martin Krzywinski](https://mk.bcgsc.ca/schemaball/?home)
 
+This circular visualization, known as a "Schemaball," represents database schemas and the relationships between tables. Although visually nice, the visualization fails to effectively communicate the intended information due to several fundamental design flaws:
 
+- **Visual Overload**: The complex network of numerous intersecting arcs creates overwhelming visual clutter, making it nearly impossible to trace specific relationships or identify meaningful patterns.
+- **Poor Readability**: The labels around the circumference are small, densely packed, and rotated, significantly reducing readability and user comfort.
+- **Lack of Hierarchy and Context**: All nodes and connections have equal visual weight, providing no indication of hierarchical importance or structural grouping, which could aid understanding.
+- **Color Scheme Issues**: The black background combined with thin yellow arcs presents low contrast and high visual strain, reducing accessibility, especially for extended viewing sessions or printed media.
+- **Static and Non-Interactive**: The absence of interactive features means users cannot filter or highlight specific relationships, severely limiting exploratory capabilities and interpretative depth.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      My answer...
+# To substantially improve the utility and clarity of this visualization, the they should consider introducing interactive elements for better exploration, grouping relationships hierarchically, increasing readability by utilizing better contrast, and providing summary insights or highlighting key connections explicitly.
+
+# ### Example of an Good Visualization (Phanerozoic Phosphate Budget)
 
 
 
 
+# 2 - Good Visualization (Phosphate Budget)
+
+**Source**: [Sharoni & Halevy, 2022, *Nature Geoscience*](https://www.nature.com/articles/s41561-022-01075-1), Figure 3: "The Phanerozoic phosphate budget"
+
+This figure provides a clear and effective visualization of complex geochemical data, specifically illustrating variations in phosphate influx and oceanic phosphate concentration throughout the Phanerozoic era (541 million years ago to present):
+
+- **Structured Panel Layout**: The figure is neatly divided into two coherent panels, clearly separating the phosphate weathering rate (panel a) and phosphate concentration (panel b), enabling easy cross-comparison and interpretation.
+- **Effective Use of Color Gradient**: The visualization uses a clear and intuitive blue gradient color scale to represent frequency distributions of model outputs, allowing viewers to quickly understand levels of confidence and variability in the data.
+- **Statistical Context and Clarity**: The shading and contours show percentile ranges (5th–95th percentiles), along with a solid red line representing scenarios with climate-insensitive seafloor weathering, effectively communicating the underlying uncertainty and sensitivity analyses performed.
+- **Contextual Information**: The clearly annotated geological timescale at the bottom provides essential context, helping viewers directly associate shifts in phosphate dynamics with significant geological and evolutionary events.
+- **Accessibility and Professional Quality**: The choice of color, contrast, typography, and labeling is professionally executed and easy to read, satisfying principles of accessibility and readability required in scientific communication.
+
+Overall, this visualization exemplifies how scientific data should be communicated—clearly, concisely, and effectively—facilitating immediate interpretation and deeper exploration of the presented information.
 
 
       
