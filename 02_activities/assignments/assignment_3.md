@@ -46,7 +46,11 @@
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
     
-# The entire analysis was performed in Python using open-source libraries with all steps scripted in a .ipynb file. The CSV dataset is version-controlled and included in the project directory. Because every step is coded and annotated, anyone can reproduce the same visualizations by running the notebook
+# The initial analysis was performed in Python using open-source libraries with all steps scripted in a .ipynb file. The CSV dataset is version-controlled and included in the project directory. Because every step is coded and annotated, anyone can reproduce the same visualizations by running the notebook
+
+# added the second set of visualizations made in Excel Pivot Tables for both parameters to demonstrate that similar time-series trends of Total Phosphorus (TP) and Chlorophyll-a (Chl-a) across Ontario’s Great Lakes can be visualized using spreadsheet tools. These charts, consistent with the Python plots, aim to highlight long-term nutrient trends that indicate eutrophication pressure in lakes such as Erie and Ontario compared to Superior.
+
+
 
     > How did you ensure that your data visualization is accessible?  
     
@@ -58,6 +62,10 @@
 # Added clear legends, axis labels, and plot titles for screen-reader compatibility.
 
 # Avoided 3D and overly complex charts to keep visual structure simple and interpretable.
+
+# in excel: To ensure clarity and comparability, I grouped data by year and calculated the average TP and Chl-a concentrations for each lake. I used line charts with distinct colors, added axis labels, units, legends, and titles for accessibility.
+
+
 
     > Who are the individuals and communities who might be impacted by your visualization?  
 
@@ -78,6 +86,10 @@
 # Total Phosphorus (TP) — a key driver of eutrophication. I wanted to add Total Nitrogen as well, but the data was only up to 2015, therefore thought to visualize TP and Chl-a, which are directly related parameters for eutrophication
 
 # Chlorophyll-a (Chl-a) — a biological indicator of algal growth. These two metrics are well-established indicators of lake productivity and eutrophic conditions, making them ideal for this analysis. 
+
+# Excel was chosen to showcase how even basic tools can be used for scientific communication and stakeholder engagement. This complements the Python workflow and strengthens reproducibility across platforms.
+
+
     
     > What ‘underwater labour’ contributed to your final data visualization product?
 
